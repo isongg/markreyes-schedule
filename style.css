@@ -1,0 +1,97 @@
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    background-color: #ffffff; 
+    color: #333; 
+}
+
+h3 {
+    font-size: 24px; 
+}
+
+a {
+    color: #007bff; 
+}
+
+.bio {
+    margin-bottom: 20px;
+}
+
+.schedule-table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border: 5px solid black;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+.schedule-table th {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.column-highlight {
+    background-color: #E0FFFF;
+}
+
+.schedule-table th:first-child,
+.schedule-table td:first-child {
+    width: 10%;
+}
+
+
+.schedule-table th:nth-child(n+2),
+.schedule-table td:nth-child(n+2) {
+    width: 15%;
+    
+
+
+}
+
+.itep207 {
+    background-color: #fbb124;
+    color: #000000;
+}
+.itep206 {
+    background-color: #fe48aa;
+    color: #000000;
+}
+.itel203 {
+    background-color: #4166f5;
+    color: #000000;
+}
+.itel205 {
+    background-color: #90EEBF;
+    color: #000000;
+}
+.gec108 {
+    background-color: #059142;
+    color: #000000;
+}
+.itep204 {
+    background-color: #d80d39b7;
+    color: #000000;
+}
+.pe2 {
+    background-color: #b666d2;
+    color: #000000;
+}
+/* Print mode styling */
+@media print {
+    body {
+        background-color: #ffffff;
+        color: #000000; 
+        font-family: "Times New Roman", Times, serif; 
+    }
+
+    .schedule-table th, .schedule-table td {
+        background-color: #ffffff; 
+        color: #000000;
+    }
+}
